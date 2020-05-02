@@ -1,0 +1,268 @@
+/* body */
+
+body{
+  margin:0px;
+  padding: 0px;
+  background: #151965;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.header{
+  background: #32407b;
+  padding: 0px;
+}
+
+.logo{
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.li{
+  margin-left: 875px;
+}
+
+.links{
+  list-style: none;
+}
+
+li, a{
+  text-align: right;
+  text-decoration: none;
+  font-family: 'Share Tech Mono';
+  font-weight: 400;
+  font-size: 25px;
+  color: #151965;
+  position: relative;
+  bottom: 25px;
+}
+
+.links li{
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.links li a:hover {
+  color: #46b5d1;
+}
+
+/* Images */
+
+.header{
+  height: 175px;
+}
+
+.pumpkins{
+  margin-left: 5px;
+  filter: grayscale(100%);
+}
+
+.fish{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.apple{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.donut{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.shopping{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.pumpkins:hover{
+  margin-left: 5px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.fish:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.apple:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.donut:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.shopping:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 1s ease 0s;
+}
+
+.images{
+  display: flex;
+}
+
+/* content */
+
+.content{
+  display: flex;
+  height: 750px;
+  width: 1750px;
+  background: #515585;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  position: relative;
+  left: 75px;
+  border: 2px solid #222831;
+  border-radius: 50px;
+  box-shadow: -39px 42px 19px 0px rgba(24,27,31,1);
+}
+
+.p1{
+  height: 650px;
+  width:1050px;
+  position: relative;
+  top: 50px;
+  left: 70px;
+}
+
+.p2{
+  height: 380px;
+  width: 525px;
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+
+.top{
+  height: 660px;
+  width: 990px;
+  position: relative;
+  left: 30px;
+  top: 25px;
+  background: dimgray;
+}
+
+button {
+  border-radius: 10px;
+  height: 55px;
+  width: 150px;
+  background-color: #d65a31;
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+
+.btn{
+  position: relative;
+  top: 5px;
+  left: 190px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Oxanium';
+  font-size: 50px;
+}
+
+.btn1{
+  position: relative;
+  bottom: 140px;
+  left: 50px;
+}
+
+button {
+  border-radius: 10px;
+  height: 55px;
+  width: 150px;
+  background-color: #af0404;
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.btn{
+  position: relative;
+  bottom: 165px;
+  left: 50px;
+}
+
+.p{
+  text-align: center;
+  color: white;
+  font-family: 'Oxanium';
+  font-size: 35px;
+}
+
+hr{
+  width: 80%;
+  color: #ffffff;
+}
+
+/* footer */
+
+.footer{
+    height: 70px;
+    background: #32407b;
+    display: flex;
+    margin-top: 100px;
+}
+
+.social{
+  left: 100px;
+  position: relative;
+  top: 15px;
+  display: flex;
+}
+
+.copyright{
+  position: relative;
+  left: 1150px;
+  bottom: 10px;
+  font-size: 25px;
+  font-family: 'Oxanium';
+  color: #ffffff;
+}
+
+/* fonts */
+
+/* font-family: 'Trade Winds', ;
+font-family: 'Share Tech Mono', ;
+font-family: 'Oxanium', ;
+font-family: 'Oswald', ; */

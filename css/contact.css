@@ -1,0 +1,242 @@
+/* Body */
+
+body{
+  margin:0px;
+  padding: 0px;
+  background: #3282b8;
+  font-family: 'Oswald';
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.header{
+  background: #1b262c;
+  padding: 0px;
+}
+
+.logo{
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.li{
+  margin-left: 875px;
+}
+
+.links{
+  list-style: none;
+}
+
+li, a{
+  text-align: right;
+  text-decoration: none;
+  font-family: 'Share Tech Mono';
+  font-weight: 400;
+  font-size: 25px;
+  color: #bbe1fa;
+  position: relative;
+  bottom: 25px;
+}
+
+.links li{
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.links li a:hover {
+  color: #0f4c75;
+}
+
+/* Images */
+
+.header{
+  height: 175px;
+}
+
+.pumpkins{
+  margin-left: 5px;
+  filter: grayscale(100%);
+}
+
+.fish{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.apple{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.donut{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.shopping{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.pumpkins:hover{
+  margin-left: 5px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.fish:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.apple:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.donut:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.shopping:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 1s ease 0s;
+}
+
+.images{
+  display: flex;
+}
+
+/* Content */
+
+.content{
+  display: flex;
+  height: 750px;
+  width: 1500px;
+  background: #bbe1fa;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  position: relative;
+  left: 200px;
+  border: 2px solid #0f4c75;
+  border-radius: 50px;
+  box-shadow: -39px 42px 19px 0px rgba(15,76,117,1);
+}
+
+.forms{
+  display:block;
+  width: 750px;
+  height: 550px;
+  position: relative;
+  left: 50px;
+  top: 75px;
+}
+
+.input1{
+  height: 50px;
+  width: 80%;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px dashed #1b262c;
+  font-size: 25px;
+}
+
+.input2{
+  height: 50px;
+  width: 80%;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px dashed #1b262c;
+  font-size: 25px;
+}
+
+.input3{
+  height: 50px;
+  width: 80%;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px dashed #1b262c;
+  font-size: 25px;
+}
+
+.input4{
+  height: 200px;
+  width: 80%;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px dashed #1b262c;
+  font-size: 25px;
+  text-align: center;
+}
+
+button {
+  border-radius: 10px;
+  height: 55px;
+  width: 25%;
+  background-color: #3282b8;
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45px;
+  position: relative;
+  left: 434px;
+}
+
+.iframe{
+  position: relative;
+  top: 95px;
+}
+
+/* footer */
+
+.copyright{
+  position: relative;
+  left: 1150px;
+  bottom: 10px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+
+.social{
+  display: flex;
+  left: 100px;
+  position: relative;
+  top: 15px;
+}
+
+.footer{
+    margin-top: 100px;
+    height: 70px;
+    background: #252525;
+    display: flex;
+}
+
+
+/* fonts */
+
+/* font-family: 'Trade Winds', ;
+font-family: 'Share Tech Mono', ;
+font-family: 'Oxanium', ;
+font-family: 'Oswald', ; */

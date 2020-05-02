@@ -1,0 +1,309 @@
+/* Body */
+
+body{
+  margin:0px;
+  padding: 0px;
+  background: #616f39;
+  font-family: 'Oswald';
+  height: 100%;
+  display: block;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.header{
+  background: #000000;
+  padding: 0px;
+}
+
+.logo{
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.li{
+  margin-left: 875px;
+}
+
+.links{
+  list-style: none;
+}
+
+.logo{
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+li, a{
+  text-align: right;
+  text-decoration: none;
+  font-family: 'Share Tech Mono';
+  font-weight: 400;
+  font-size: 25px;
+  color: #a7d129;
+  position: relative;
+  bottom: 25px;
+}
+
+.links li{
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.links li a:hover {
+  color: #3e432e;
+}
+
+.links li a:active{
+  color: #414141;
+  transition: all 0.1s;
+}
+
+/* Images */
+
+.header{
+  height: 175px;
+}
+
+.pumpkins{
+  margin-left: 5px;
+  filter: grayscale(100%);
+}
+
+.fish{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.apple{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.donut{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.shopping{
+  margin-left: 3px;
+  filter: grayscale(100%);
+}
+
+.pumpkins:hover{
+  margin-left: 5px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.fish:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.apple:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.donut:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 0.4s ease 0s;
+}
+
+.shopping:hover{
+  margin-left: 3px;
+  filter: grayscale(0%);
+  transition: all 1s ease 0s;
+}
+
+.images{
+  display: flex;
+}
+
+/* Content */
+
+.content{
+  width: 100%;
+  box-shadow: -39px 42px 19px 0px rgba(24,27,31,1);
+  margin-top: 25px;
+  width: 1500px;
+  height: 1325px;
+  border:1px solid #252525;
+  background: #3e432e;
+  position: relative;
+  left: 250px;
+  border-radius: 30px;
+}
+
+.line1{
+  width: 1300px;
+  height: 566px;
+  border-radius: 10px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  display: flex;
+}
+
+.line2{
+  width: 1300px;
+  height: 566px;
+  border-radius: 10px;
+  position: relative;
+  top: 150px;
+  left: 100px;
+  display: flex;
+}
+
+.image{
+  height: 266px;
+  width: 400px;
+  background: #000000;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.title{
+    height: 105px;
+    width: 400px;
+    background: #616f39;
+    position: relative;
+    bottom: 54px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.img{
+  border-radius: 5px 5px 0px 0px;
+}
+
+.title2{
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: 5px;
+}
+
+.description{
+  font-size: 35px;
+  background: #a7d129;
+  width: 400px;
+  height: 150px;
+  position: relative;
+  bottom: 90px;
+  border-radius: 0px 0px 5px 5px;
+  text-align: center;
+}
+
+.productpage1{
+    width: 400px;
+    height: 470px;
+    background: #ffffff;
+    position: relative;
+    bottom: 0px;
+    border-radius: 5px;
+}
+
+.a1{
+  position: relative;
+  top: 10px;
+}
+
+.btn1{
+  position: relative;
+  bottom: 140px;
+  left: 50px;
+}
+
+button {
+  border-radius: 10px;
+  height: 55px;
+  width: 150px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.btn{
+  position: relative;
+  bottom: 165px;
+  left: 120px;
+}
+
+.productpage33{
+  position: relative;
+  left: 50px;
+}
+
+.productpage2{
+    width: 400px;
+    height: 470px;
+    background: #ffffff;
+    position: relative;
+    bottom: 0px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.productpage3{
+    width: 400px;
+    height: 470px;
+    background: #ffffff;
+    position: relative;
+    bottom: 0px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+/* footer */
+
+.footer{
+    margin-top: 100px;
+    height: 70px;
+    background: #000000;
+    display: flex;
+}
+
+.social{
+  display: flex;
+  left: 100px;
+  position: relative;
+  top: 15px;
+}
+
+.copyright{
+  position: relative;
+  left: 1150px;
+  bottom: 10px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/* fonts */
+
+/* font-family: 'Trade Winds', ;
+font-family: 'Share Tech Mono', ;
+font-family: 'Oxanium', ;
+font-family: 'Oswald', ; */
